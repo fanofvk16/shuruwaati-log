@@ -1,0 +1,2 @@
+# shuruwaati-log
+learning skills
