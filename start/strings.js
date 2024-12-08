@@ -19,4 +19,4 @@ console.log(userone.mood)
 let ew=new String(`ranjit maruti thorat`)
 console.log(ew[1])
 console.log(ew.length)
-console.log(a.toUpperCase());
+console.log(ew.toUpperCase());
