@@ -40,6 +40,8 @@
 // console.log(details.greeting);
 
 
+//Constructor
+
 const blank=new Object()  //singleton
 const blank1={}  //non-singleton
 blank1.id={
@@ -58,3 +60,27 @@ const family={
 console.log(family);
 const all={family, blank1}
 console.log(all);
+
+//spread concept
+const obj={1:"a", 2:"b", 3:"c"}
+const together={...obj, ...blank1,...family}
+console.log(together);
+
+//array k andar object
+const users=[
+    {rollNo:"b24cm1049",
+        quality:"joylly"
+    },{
+        rollNo:"b24cm1056",
+        quality:"rottdi"
+    },{
+    rollNo:"b24ch1045",
+        quality:"self-obsessed"
+    }
+]
+
+console.log(users[1].quality);
+
+
+console.log(Object.keys(family)); //family k starting wale(terms before:)
+console.log(Object.values(blank1));  //(terms after:)
